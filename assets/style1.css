@@ -63,7 +63,10 @@ html,body{
     background-color: #fff;
     color: #1137ca;
 } 
-
+#right-nav button:hover{
+    background-color: #fff;
+    color: #1137ca;
+} 
 #bottom-page1{
     position: absolute;
     bottom: 5%;
