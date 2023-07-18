@@ -62,6 +62,7 @@ html,body{
  #right-nav button:hover{
     background-color: #fff;
     color: #1137ca;
+    cursor: pointer;
 } 
 
 #bottom-page1{
@@ -78,6 +79,7 @@ html,body{
     font-size: 5vw;
     font-weight: 100;
     color: #fff;
+    
 }
 #bottom-page1-inner{
     position: absolute;
@@ -85,4 +87,29 @@ html,body{
     height: 35%;
     width: 100%;
   
+}
+.bottom-page1-inner{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    font-family: a;
+}
+#bottom-page1-inner button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 16px;
+    font-family: b;
+}
+
+#bottom-page1-inner button:hover{
+    background-color: #1137ca;
+    color: #fff;
+}
+#bottom-page1-inner h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #fff;
 }
