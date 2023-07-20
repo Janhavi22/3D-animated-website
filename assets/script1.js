@@ -197,3 +197,22 @@ end: `250% top`,
 });
 }
 canvas()
+
+var clutter = "" ;
+document.querySelector("#page4 h1").textContent.split(" ").forEach(function(dets){
+  clutter += `<span> ${dets} </span>`
+  document.querySelector("#page4 h1").innerHTML = clutter;
+})
+
+gsap.to("#page4 h1 span",{
+  ScrollTrigger:{
+    trigger: `#page4 h1 span`,
+    start: `top bottom`,
+    end: `bottom end`,
+    scroller: `#main`,
+    scrub:.5,
+    
+  },
+  stagger:.2,
+  color: `#fff`
+})
