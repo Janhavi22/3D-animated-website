@@ -118,6 +118,32 @@ html,body{
 #page2{
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: #0b48ed;
     position: relative;
+    display: flex;
+    align-items: start;
+    font-family: a;
+    flex-direction: column;
+    padding: 4vw 8vw;
+    color: #fff;
+}
+#page2 h2{
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+#page2 h1{
+    width: 90%;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #dadada69;
+}
+#page3{
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    background-color: red;
+}
+#page3 canvas{
+    
 }
