@@ -29,6 +29,7 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 }
 loco()
+// ---------------------page2--------------------
 var clutter = "" ;
 document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets){
   clutter += `<span> ${dets} </span>`
@@ -47,6 +48,8 @@ gsap.to("#page2 h1 span",{
   stagger:.2,
   color: `#fff`
 })
+
+// ----------------------page3-----------------------
 
 function canvas(){
   const canvas = document.querySelector("#page3 canvas");
@@ -198,6 +201,7 @@ end: `250% top`,
 }
 canvas()
 
+// ----------------------page4-----------------------
 var clutter = "" ;
 document.querySelector("#page4 h1").textContent.split(" ").forEach(function(dets){
   clutter += `<span> ${dets} </span>`
@@ -216,6 +220,9 @@ gsap.to("#page4 h1 span",{
   stagger:.2,
   color: `#fff`
 })
+
+// ----------------------page5-----------------------
+
 function canvas1(){
   const canvas = document.querySelector("#page5 canvas");
 const context = canvas.getContext("2d");
@@ -366,6 +373,9 @@ end: `250% top`,
 });
 }
 canvas1()
+
+// ----------------------page6-----------------------
+
 var clutter = "" ;
 document.querySelector("#page6 h1").textContent.split(" ").forEach(function(dets){
   clutter += `<span> ${dets} </span>`
