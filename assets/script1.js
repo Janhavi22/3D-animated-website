@@ -620,3 +620,30 @@ end: `250% top`,
 }
 canvas2()
 
+// -------------------page7----------------------
+
+gsap.to("#page7-cir",{
+  scrollTrigger:{
+    trigger:`#page7-cir`,
+    start:`top center`,
+    end:`bottom top`,
+    markers:`true`,
+    scroller:`#main`,
+    scrub:5
+  },
+  scale:2
+})
+
+gsap.to("#page7-cir-inner",{
+  scrollTrigger:{
+    trigger:`#page7-cir-inner`,
+    start:`top center`,
+    end:`bottom top`,
+   
+    scroller:`#main`,
+    scrub:5
+  },
+
+  backgroundColor:`#0a3bce91`,
+  
+})
