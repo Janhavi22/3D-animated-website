@@ -345,12 +345,25 @@ html,body{
     width: 60%;
     position: relative;
     left: 40%;
-    background-color: red;
+   
 }
 #right10-inner{
     height: 33.3%;
     width: 100%;
-    background-color: pink;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+   
     font-family: a;
+    color: #fff;
 }
+#right10-inner h1{
+    font-size: 2vw;
+}
+#right10-inner p{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 80%;
+}
+
 /* -------------------page11---------------------- */
