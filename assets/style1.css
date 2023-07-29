@@ -367,3 +367,37 @@ html,body{
 }
 
 /* -------------------page11---------------------- */
+#page11{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    font-family: a;
+}
+#page11 h1{
+    position:absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 100;
+}
+#page11-inner{
+    top: 18%;
+    display: flex;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 25%;
+    width: 100%;
+    background-color: gold;
+}
+#left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+}
+#right11{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
