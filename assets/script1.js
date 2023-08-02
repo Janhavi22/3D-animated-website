@@ -31,8 +31,8 @@ ScrollTrigger.refresh();
 loco()
 // ---------------------page2--------------------
 var clutter = "" ;
-document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets){
-  clutter += `<span> ${dets} </span>`
+document.querySelector("#page2 h1").textContent.split("").forEach(function(dets){
+  clutter += `<span>${dets}</span>`
   document.querySelector("#page2 h1").innerHTML = clutter;
 })
 
@@ -48,6 +48,8 @@ gsap.to("#page2 h1 span",{
   stagger:.2,
   color: `#fff`
 })
+var clutter = "";
+
 
 // ----------------------page3-----------------------
 
@@ -203,8 +205,8 @@ canvas()
 
 // ----------------------page4-----------------------
 var clutter = "" ;
-document.querySelector("#page4 h1").textContent.split(" ").forEach(function(dets){
-  clutter += `<span> ${dets} </span>`
+document.querySelector("#page4 h1").textContent.split("").forEach(function(dets){
+  clutter += `<span>${dets}</span>`
   document.querySelector("#page4 h1").innerHTML = clutter;
 })
 
@@ -377,8 +379,8 @@ canvas1()
 // ----------------------page6-----------------------
 
 var clutter = "" ;
-document.querySelector("#page6 h1").textContent.split(" ").forEach(function(dets){
-  clutter += `<span> ${dets} </span>`
+document.querySelector("#page6 h1").textContent.split("").forEach(function(dets){
+  clutter += `<span>${dets}</span>`
   document.querySelector("#page6 h1").innerHTML = clutter;
 })
 
