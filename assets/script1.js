@@ -69,8 +69,8 @@ render();
 
 function files(index) {
 var data = `
-./assets/bridge00007.png
-./assets/bridge00010.png
+
+
 ./assets/frames00013.png
 ./assets/frames00016.png
 ./assets/frames00019.png
@@ -241,7 +241,7 @@ render();
 
 function files(index) {
 var data = `
-./assets/bridges00004.png
+
 ./assets/bridges00007.png
 ./assets/bridges00010.png
 ./assets/bridges00013.png
