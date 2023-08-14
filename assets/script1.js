@@ -629,7 +629,7 @@ gsap.to("#page7-cir",{
     trigger:`#page7-cir`,
     start:`top center`,
     end:`bottom top`,
-    markers:`true`,
+    
     scroller:`#main`,
     scrub:5
   },
